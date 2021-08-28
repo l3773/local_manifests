@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="Redmi-MT6768"
+           fetch="https://github.com/Redmi-MT6768" />
+
+  <remote  name="fourninesix"
+           fetch="https://github.com/fourninesix" />
+
+  <remote  name="patch"
+           fetch="https://github.com/PixelExperience" />
+
+  <project path="device/xiaomi/merlin" name="device_xiaomi_merlin" remote="fourninesix" revision="test" clone-depth="1" />
+
+  <project path="vendor/xiaomi/merlin" name="android_vendor_xiaomi_merlin" remote="Redmi-MT6768" revision="eleven" clone-depth="1" />
+
+  <project path="kernel/xiaomi/mt6768" name="based_kernel" remote="Redmi-MT6768" revision="eleven-q" clone-depth="1" />
+
+  <project path="vendor/mediatek/ims" name="vendor_mediatek_ims" remote="Redmi-MT6768" revision="eleven" clone-depth="1" />
+
+  <project path="vendor/mediatek/opensource" name="vendor_mediatek-opensource" remote="Redmi-MT6768" revision="eleven" clone-depth="1" />
+
+  <project path="vendor/mediatek/interfaces" name="vendor_mediatek_interfaces" remote="patch" revision="eleven" clone-depth="1" />
+
+  <project path="device/mediatek/sepolicy" name="device_mediatek_sepolicy" remote="patch" revision="eleven" clone-depth="1" />
+
+</manifest>
