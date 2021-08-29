@@ -10,11 +10,11 @@
   <remote  name="patch"
            fetch="https://github.com/PixelExperience" />
 
-  <project path="device/xiaomi/merlin" name="device_xiaomi_merlin" remote="fourninesix" revision="test" clone-depth="1" />
+  <project path="device/xiaomi/merlin" name="device_xiaomi_merlin" remote="fourninesix" revision="eleven" clone-depth="1" />
 
   <project path="vendor/xiaomi/merlin" name="android_vendor_xiaomi_merlin" remote="Redmi-MT6768" revision="eleven" clone-depth="1" />
 
-  <project path="kernel/xiaomi/mt6768" name="based_kernel" remote="Redmi-MT6768" revision="eleven-q" clone-depth="1" />
+  <project path="kernel/xiaomi/mt6768" name="based_kernel" remote="fourninesix" revision="eleven-q" clone-depth="1" />
 
   <project path="vendor/mediatek/ims" name="vendor_mediatek_ims" remote="Redmi-MT6768" revision="eleven" clone-depth="1" />
 
